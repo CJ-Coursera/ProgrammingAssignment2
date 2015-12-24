@@ -4,9 +4,9 @@
 ## is to write a pair of functions that cache the inverse of a matrix.
 
 
-## The makeMatrix function creates a special matrix object that can cache its inverse
+## The makeCacheMatrix function creates a special matrix object that can cache its inverse
 
-makeMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(x = matrix()) {
   Inverse <- NULL
   set <- function(y) {
     x <<- y
